@@ -1,0 +1,139 @@
+#ig1{
+            width:120px;
+            border-radius: 50px;
+            margin-top: 10px;
+            margin-right: 70%;
+            float: left;
+}
+
+body{
+  background-image: url('images/IMG_1698.JPG');
+  background-repeat: no-repeat;
+  background-attachment:fixed ; 
+  background-position: center;
+  background-size: cover;
+}
+
+h1{
+  background: linear-gradient(to right, skyblue , white);
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+  
+
+}
+
+p{
+  /* background: linear-gradient(to right, skyblue,white); */
+  background-repeat: no-repeat;
+  background-attachment:fixed ;
+}
+
+.main{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top:150px;
+  
+}
+
+
+.div1{
+  border: 5px solid ;
+  border-radius: 20px;
+  width: 550px;
+  font-size: 22px;
+  padding: 20px;
+  background: linear-gradient(to left, lightblue,white);
+  justify-content:center;
+  font-family: sans-serif;
+}
+
+.div2{
+  margin-right: 380px;
+  border: 2px solid yellowgreen;
+  border-radius: 10px;
+  width: 250px;
+  font-size: 22px;
+  padding: 20px;
+  float:right;
+  clip-path:path("M0.999994 2C-0.600006 243.6 168.333 299.333 253 297M0.999994 2L48 419M0.999994 2V253M0.999994 2L253 297M253 297L0.999994 253M253 297L48 419M0.999994 253L48 419");
+}
+#l1{
+  color: black;
+}
+/* 
+.box1{
+  width: 120px;
+  height: 38px;
+  background-color: aqua;
+  border-radius: 15px;
+  border: 2px solid;
+  float: right;
+  margin-right: 0px;
+} */
+
+#dk{
+  width:120px;
+  height: 35px;
+  float: right;
+  border-radius: 15px;
+  border: 2px solid;
+  margin-right: 0px;
+}
+
+a:link{
+  color:gray;
+  align-items: center;
+  
+}
+
+a:visited{
+  color: aquamarine;
+}
+
+a:hover{
+  color: tomato;
+}
+
+.link-div{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+
+.login_form #pass_error,
+.login_form #email_error{
+  margin-top: 5px;
+  color: #C62828;
+  display: none;
+  
+}
